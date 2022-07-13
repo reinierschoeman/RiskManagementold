@@ -30,7 +30,7 @@ steps:
       org: "CLD200-CF-A00" # add your org here
       space: "dev" # add your space here
       credentialsId: "cfdeploy"
-      appName: ""
+      appName: "risk-management"
     mtaDeployParameters: "-f --version-rule ALL"
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
